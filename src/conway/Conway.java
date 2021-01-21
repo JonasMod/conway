@@ -25,6 +25,7 @@ public class Conway {
 
 		IModel model = null;
 		if(selection.equals("1")) {
+			//note: in a dynamically created seed we would have to catch potential exceptions!
 			model = new Model(15, 6, 
 					  "fffftffffffffff"
 					+ "ffffftfffffffff"
